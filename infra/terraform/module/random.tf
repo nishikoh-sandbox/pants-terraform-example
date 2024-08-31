@@ -6,7 +6,7 @@ resource "random_id" "id" {
   keepers = {
     inpput_text = var.input_text
   }
-  byte_length = 8
+  byte_length = 7
 }
 
 variable "input_text" {
