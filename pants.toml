@@ -1,0 +1,11 @@
+[GLOBAL]
+pants_version = "2.23.0.dev6"
+backend_packages = [
+  "pants.backend.build_files.fmt.ruff",
+  "pants.backend.docker",
+  "pants.backend.experimental.terraform",
+  "pants.backend.python",
+]
+
+[python]
+interpreter_constraints = ["==3.11.*"]
