@@ -7,5 +7,5 @@ terraform {
 
 module "name" {
   source     = "../../module"
-  input_text = "helloo"
+  input_text = "helloooo"
 }
